@@ -5,8 +5,12 @@
     "strict": true,
     "sourceMap": true,
     "pretty": true,
+    "jsx": "react",
+    "jsxFactory": "h",
     "outDir": "dist/",
     "declaration": true
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
