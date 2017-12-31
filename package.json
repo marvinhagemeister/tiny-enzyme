@@ -18,7 +18,7 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "preact": "^8.2.7"
+    "preact": "8.x"
   },
   "devDependencies": {
     "@types/jest": "^21.1.4",
