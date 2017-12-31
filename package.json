@@ -16,7 +16,8 @@
     "prepublishOnly": "npm run lint && npm t && npm run build",
     "precommit": "lint-staged"
   },
-  "dependencies": {
+  "dependencies": {},
+  "peerDependencies": {
     "preact": "^8.2.7"
   },
   "devDependencies": {
@@ -24,6 +25,7 @@
     "husky": "^0.14.3",
     "jest": "^21.2.1",
     "lint-staged": "^4.0.4",
+    "preact": "^8.2.7",
     "prettier": "^1.6.1",
     "rimraf": "^2.6.1",
     "ts-jest": "^21.1.3",
