@@ -1,5 +1,9 @@
 # Changelog
 
-## 1.0.0
+## 0.0.2
 
-- initial Release
+* make `preact` a `peerDependency`
+
+## 0.0.1
+
+* initial release
