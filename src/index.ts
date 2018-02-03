@@ -23,11 +23,12 @@ export class EnzymeElement {
   }
 
   simulate(name: string) {
-    const event = new MouseEvent(name, {
+    // MouseEvent leads to an infinite loop in jsdom
+    const event = new Event(name, {
       view: window,
       bubbles: true,
       cancelable: true,
-    });
+    } as any);
 
     this.items.map(x => x.dispatchEvent(event));
     return this;

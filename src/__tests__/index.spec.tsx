@@ -33,4 +33,20 @@ describe("EnzymElement", () => {
 
     expect(item.items.length).toEqual(1);
   });
+
+  it("should find elements and trigger event", () => {
+    const spy = jest.fn();
+
+    const dom = (
+      <div id="root">
+        <span onClick={spy}>foo</span>
+      </div>
+    );
+
+    mount(dom)
+      .find("span")
+      .simulate("click");
+
+    expect(spy.mock.calls.length).toEqual(1);
+  });
 });
