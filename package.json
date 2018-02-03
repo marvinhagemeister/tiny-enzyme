@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "description": "Minimal alternative of enzyme testing library",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "author": "Marvin Hagemeister <marvin@marvinhagemeister.de>",
   "license": "MIT",
   "scripts": {
