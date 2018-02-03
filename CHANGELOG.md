@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.5
+
+* Add TypeScript bindings
+
 ## 0.0.4
 
 * Fix infinite loop in jsdom
