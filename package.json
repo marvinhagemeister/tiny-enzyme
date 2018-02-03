@@ -1,6 +1,6 @@
 {
-  "name": "tiny-enzyme",
-  "version": "0.0.3",
+  "name": "@marvinh/tiny-enzyme",
+  "version": "0.0.4",
   "description": "Minimal alternative of enzyme testing library",
   "main": "dist/index.js",
   "author": "Marvin Hagemeister <marvin@marvinhagemeister.de>",

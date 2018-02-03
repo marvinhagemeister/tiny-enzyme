@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.4
+
+* Fix infinite loop in jsdom
+* rename package to `@marvinh/tiny-enzyme
+
 ## 0.0.3
 
 * Properly set `peerDependency`

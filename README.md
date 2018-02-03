@@ -8,10 +8,10 @@ Installation:
 
 ```bash
 # npm
-npm install --save-dev tiny-enzyme
+npm install --save-dev @marvinh/tiny-enzyme
 
 # yarn
-yarn add -D tiny-enzyme
+yarn add -D @marvinh/tiny-enzyme
 ```
 
 Example test:
